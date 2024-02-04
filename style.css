@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+} 
+
+li > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.score > * {
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0%;
+  max-width: 600px;
+  text-align: left;
+}
+
