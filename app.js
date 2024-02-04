@@ -112,10 +112,10 @@ const makeLi = (todoTxt) => {
 
   li.append(checkBox, p, editBtn, deleteBtn);
   
-  return li
+  return li;
 }
 
-// タスクを追加する機能
+// タスクを追加
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   let todoTxt = input.value;
